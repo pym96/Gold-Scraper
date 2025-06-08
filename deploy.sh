@@ -60,20 +60,30 @@ sudo sed -i "s|gold_spider|Gold-Scraper|g" /etc/systemd/system/goldspider.servic
 
 # Find conda installation and update service file
 echo -e "${GREEN}Locating conda installation...${NC}"
-CONDA_PATH=$(which conda 2>/dev/null || echo "")
-if [ -z "$CONDA_PATH" ]; then
-    # Try common conda installation paths
-    if [ -f "$HOME/miniconda3/etc/profile.d/conda.sh" ]; then
-        CONDA_INIT="source $HOME/miniconda3/etc/profile.d/conda.sh"
-    elif [ -f "$HOME/anaconda3/etc/profile.d/conda.sh" ]; then
-        CONDA_INIT="source $HOME/anaconda3/etc/profile.d/conda.sh"
+
+# Try to find conda installation in common locations
+if [ -f "$HOME/anaconda3/etc/profile.d/conda.sh" ]; then
+    CONDA_INIT="source $HOME/anaconda3/etc/profile.d/conda.sh"
+    echo -e "${GREEN}Found conda at $HOME/anaconda3${NC}"
+elif [ -f "$HOME/miniconda3/etc/profile.d/conda.sh" ]; then
+    CONDA_INIT="source $HOME/miniconda3/etc/profile.d/conda.sh"
+    echo -e "${GREEN}Found conda at $HOME/miniconda3${NC}"
+else
+    # Try to use which conda if it works
+    CONDA_PATH=$(which conda 2>/dev/null || echo "")
+    if [ -n "$CONDA_PATH" ] && [ -f "$CONDA_PATH" ]; then
+        CONDA_BASE=$(dirname $(dirname "$CONDA_PATH"))
+        if [ -f "$CONDA_BASE/etc/profile.d/conda.sh" ]; then
+            CONDA_INIT="source $CONDA_BASE/etc/profile.d/conda.sh"
+            echo -e "${GREEN}Found conda at $CONDA_BASE${NC}"
+        else
+            echo -e "${RED}Could not find conda initialization script${NC}"
+            exit 1
+        fi
     else
         echo -e "${RED}Could not find conda installation${NC}"
         exit 1
     fi
-else
-    CONDA_BASE=$(dirname $(dirname $CONDA_PATH))
-    CONDA_INIT="source $CONDA_BASE/etc/profile.d/conda.sh"
 fi
 
 # Update ExecStart to use conda
