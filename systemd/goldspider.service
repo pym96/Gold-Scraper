@@ -1,21 +1,26 @@
 [Unit]
-Description=Gold Spider - Real-time Gold News Aggregator
+Description=Gold Spider FastAPI Application
 After=network.target
 
 [Service]
+Type=simple
 User=root
-Group=root
-WorkingDirectory=/root/gold_spider
-ExecStart=/bin/bash -c 'source /root/anaconda3/etc/profile.d/conda.sh && conda activate gold_spider && python run.py'
+WorkingDirectory=/home/ubuntu/gold_spider
+Environment=PATH=/home/ubuntu/anaconda3/envs/gold_spider/bin
+ExecStart=/bin/bash -c 'source /home/ubuntu/anaconda3/etc/profile.d/conda.sh && conda activate gold_spider && python -m app.service'
 Restart=always
 RestartSec=10
-
-# Environment
-Environment=PYTHONPATH=/root/gold_spider
 
 # Logging
 StandardOutput=journal
 StandardError=journal
+SyslogIdentifier=goldspider
+
+# Security settings
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/home/ubuntu/gold_spider/logs /home/ubuntu/gold_spider/data
 
 [Install]
 WantedBy=multi-user.target 
