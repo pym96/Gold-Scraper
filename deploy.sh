@@ -55,7 +55,7 @@ sudo sed -i "s|/path/to/gold_spider|$HOME/Gold-Scraper|g" /etc/nginx/conf.d/gold
 # Set up the systemd service and adjust for conda
 echo -e "${GREEN}Setting up systemd service...${NC}"
 sudo cp systemd/goldspider.service /etc/systemd/system/
-sudo sed -i "s|/home/ubuntu|$HOME|g" /etc/systemd/system/goldspider.service
+sudo sed -i "s|/root|$HOME|g" /etc/systemd/system/goldspider.service
 sudo sed -i "s|gold_spider|Gold-Scraper|g" /etc/systemd/system/goldspider.service
 
 # Find conda installation and update service file
