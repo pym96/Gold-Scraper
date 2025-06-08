@@ -1,0 +1,21 @@
+[Unit]
+Description=Gold Spider - Real-time Gold News Aggregator
+After=network.target
+
+[Service]
+User=root
+Group=root
+WorkingDirectory=/root/gold_spider
+ExecStart=/bin/bash -c 'source /root/anaconda3/etc/profile.d/conda.sh && conda activate gold_spider && python run.py'
+Restart=always
+RestartSec=10
+
+# Environment
+Environment=PYTHONPATH=/root/gold_spider
+
+# Logging
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target 

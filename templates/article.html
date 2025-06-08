@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ article.title }} - Gold Spider</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .article-full-content {
+            line-height: 1.8;
+            font-size: 17px;
+            margin: 20px 0;
+        }
+        
+        .article-full-content p {
+            margin-bottom: 15px;
+        }
+        
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            color: var(--primary-color);
+            text-decoration: none;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+        
+        .back-link i {
+            margin-right: 10px;
+        }
+        
+        .article-meta {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-top: 15px;
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .article-meta div {
+            margin-right: 20px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .article-meta i {
+            margin-right: 5px;
+        }
+        
+        .article-image {
+            width: 100%;
+            border-radius: 8px;
+            margin: 20px 0;
+            max-height: 400px;
+            object-fit: cover;
+        }
+        
+        .audio-player-sticky {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background-color: white;
+            border-bottom: 1px solid var(--border-color);
+            margin-bottom: 0;
+        }
+        
+        .paywall-notice {
+            background-color: #fff8e1;
+            border: 1px solid #ffe082;
+            padding: 15px;
+            border-radius: 6px;
+            margin: 20px 0;
+            font-style: italic;
+            color: #856404;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/" class="back-link"><i class="fas fa-arrow-left"></i> 返回列表</a>
+        
+        <div class="audio-player audio-player-sticky">
+            <div class="audio-title">{{ article.title }}</div>
+            <div class="audio-controls">
+                <button class="audio-btn"><i class="fas fa-step-backward"></i></button>
+                <button class="audio-btn play"><i class="fas fa-play"></i></button>
+                <button class="audio-btn"><i class="fas fa-step-forward"></i></button>
+                <button class="audio-btn"><i class="fas fa-volume-up"></i></button>
+                <div class="progress-container">
+                    <div class="progress-bar"></div>
+                </div>
+                <span class="audio-time">0:00</span>
+                <span class="audio-time">1:34</span>
+                <button class="speed-control">1x</button>
+            </div>
+        </div>
+        
+        <article class="article-card">
+            <div class="article-header">
+                <div class="article-tag">黄金资讯</div>
+                <div class="article-date">{{ article.pub_date|format_date }}</div>
+            </div>
+            
+            <h1 class="article-title">{{ article.title }}</h1>
+            
+            <div class="article-meta">
+                <div><i class="fas fa-calendar"></i> 发布时间: {{ article.pub_date|format_date }}</div>
+                <div><i class="fas fa-globe"></i> 来源: {{ article.source }}</div>
+                <div><i class="fas fa-clock"></i> 抓取时间: {{ article.fetched_at|format_date }}</div>
+            </div>
+            
+            {% if article.is_paywalled %}
+                <div class="paywall-notice">
+                    <i class="fas fa-lock"></i> 此内容需要订阅才能访问完整版本。以下是可访问的摘要内容。
+                </div>
+            {% endif %}
+            
+            {% if article.summary %}
+                <div class="article-summary">
+                    <strong>摘要：</strong> {{ article.summary }}
+                </div>
+            {% endif %}
+            
+            {% if article.content %}
+                <div class="article-full-content">
+                    {% for paragraph in article.content.split('\n\n') %}
+                        <p>{{ paragraph }}</p>
+                    {% endfor %}
+                </div>
+            {% else %}
+                <div class="article-full-content">
+                    <p>暂无详细内容。</p>
+                </div>
+            {% endif %}
+            
+            <div class="article-footer">
+                <div class="article-source">
+                    <i class="fas fa-link"></i>
+                    <a href="{{ article.link }}" target="_blank">原文链接</a>
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <script>
+        // 简单的音频播放控制
+        document.addEventListener('DOMContentLoaded', function() {
+            const playBtn = document.querySelector('.audio-btn.play');
+            const progressBar = document.querySelector('.progress-bar');
+            let isPlaying = false;
+            
+            playBtn.addEventListener('click', function() {
+                if (isPlaying) {
+                    playBtn.innerHTML = '<i class="fas fa-play"></i>';
+                    isPlaying = false;
+                } else {
+                    playBtn.innerHTML = '<i class="fas fa-pause"></i>';
+                    isPlaying = true;
+                    
+                    // 模拟播放进度
+                    let progress = 0;
+                    const interval = setInterval(() => {
+                        progress += 1;
+                        progressBar.style.width = `${progress}%`;
+                        
+                        if (progress >= 100 || !isPlaying) {
+                            clearInterval(interval);
+                            if (progress >= 100) {
+                                playBtn.innerHTML = '<i class="fas fa-play"></i>';
+                                isPlaying = false;
+                            }
+                        }
+                    }, 100);
+                }
+            });
+        });
+    </script>
+</body>
+</html> 

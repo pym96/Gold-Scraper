@@ -1,0 +1,653 @@
+2025-05-12 16:48:58,035 - gold_scraper - INFO - 开始抓取黄金新闻...
+2025-05-12 16:48:58,035 - gold_scraper - INFO - 正在抓取源: https://www.kitco.com/news/category/gold-news/
+2025-05-12 16:48:59,843 - gold_scraper - INFO - 在 kitco.com 找到 0 个唯一链接
+2025-05-12 16:48:59,844 - gold_scraper - INFO - 从 kitco.com 提取了 0 篇相关文章
+2025-05-12 16:49:02,844 - gold_scraper - INFO - 正在抓取源: https://www.gold.org/news-and-events/news
+2025-05-12 16:49:04,081 - gold_scraper - WARNING - HTTP错误 404: https://www.gold.org/news-and-events/news
+2025-05-12 16:49:04,081 - gold_scraper - INFO - 重试请求 https://www.gold.org/news-and-events/news，延迟 4.28 秒...
+2025-05-12 16:49:09,448 - gold_scraper - WARNING - HTTP错误 404: https://www.gold.org/news-and-events/news
+2025-05-12 16:49:09,448 - gold_scraper - INFO - 重试请求 https://www.gold.org/news-and-events/news，延迟 5.93 秒...
+2025-05-12 16:49:16,701 - gold_scraper - WARNING - HTTP错误 404: https://www.gold.org/news-and-events/news
+2025-05-12 16:49:16,702 - gold_scraper - ERROR - 达到最大重试次数，无法获取: https://www.gold.org/news-and-events/news
+2025-05-12 16:49:16,708 - gold_scraper - INFO - 正在抓取源: https://goldprice.org/gold-news.html
+2025-05-12 16:49:18,360 - gold_scraper - WARNING - HTTP错误 404: https://goldprice.org/gold-news.html
+2025-05-12 16:49:18,360 - gold_scraper - INFO - 重试请求 https://goldprice.org/gold-news.html，延迟 3.17 秒...
+2025-05-12 16:49:23,126 - gold_scraper - WARNING - HTTP错误 404: https://goldprice.org/gold-news.html
+2025-05-12 16:49:23,126 - gold_scraper - INFO - 重试请求 https://goldprice.org/gold-news.html，延迟 4.79 秒...
+2025-05-12 16:49:29,419 - gold_scraper - WARNING - HTTP错误 404: https://goldprice.org/gold-news.html
+2025-05-12 16:49:29,419 - gold_scraper - ERROR - 达到最大重试次数，无法获取: https://goldprice.org/gold-news.html
+2025-05-12 16:49:29,420 - gold_scraper - INFO - 正在抓取源: https://www.reuters.com/markets/commodities/
+2025-05-12 16:49:29,925 - gold_scraper - WARNING - HTTP错误 401: https://www.reuters.com/markets/commodities/
+2025-05-12 16:49:29,925 - gold_scraper - INFO - 重试请求 https://www.reuters.com/markets/commodities/，延迟 3.50 秒...
+2025-05-12 16:49:33,751 - gold_scraper - WARNING - HTTP错误 401: https://www.reuters.com/markets/commodities/
+2025-05-12 16:49:33,751 - gold_scraper - INFO - 重试请求 https://www.reuters.com/markets/commodities/，延迟 5.84 秒...
+2025-05-12 16:49:39,909 - gold_scraper - WARNING - HTTP错误 401: https://www.reuters.com/markets/commodities/
+2025-05-12 16:49:39,910 - gold_scraper - ERROR - 达到最大重试次数，无法获取: https://www.reuters.com/markets/commodities/
+2025-05-12 16:49:39,911 - gold_scraper - INFO - 正在抓取源: https://www.bloomberg.com/markets/commodities/futures/metals
+2025-05-12 16:49:41,367 - gold_scraper - INFO - 在 bloomberg.com 找到 9 个唯一链接
+2025-05-12 16:49:41,367 - gold_scraper - INFO - 从 bloomberg.com 提取了 0 篇相关文章
+2025-05-12 16:49:44,370 - gold_scraper - INFO - 正在抓取源: https://www.investing.com/news/commodities-news
+2025-05-12 16:49:44,806 - gold_scraper - WARNING - HTTP错误 403: https://www.investing.com/news/commodities-news
+2025-05-12 16:49:44,806 - gold_scraper - INFO - 重试请求 https://www.investing.com/news/commodities-news，延迟 4.26 秒...
+2025-05-12 16:49:49,455 - gold_scraper - WARNING - HTTP错误 403: https://www.investing.com/news/commodities-news
+2025-05-12 16:49:49,455 - gold_scraper - INFO - 重试请求 https://www.investing.com/news/commodities-news，延迟 4.06 秒...
+2025-05-12 16:49:53,899 - gold_scraper - WARNING - HTTP错误 403: https://www.investing.com/news/commodities-news
+2025-05-12 16:49:53,900 - gold_scraper - ERROR - 达到最大重试次数，无法获取: https://www.investing.com/news/commodities-news
+2025-05-12 16:49:53,902 - gold_scraper - INFO - 正在抓取源: https://www.ft.com/commodities
+2025-05-12 16:49:55,344 - gold_scraper - INFO - 在 ft.com 找到 2 个唯一链接
+2025-05-12 16:49:55,344 - gold_scraper - INFO - 从 ft.com 提取了 0 篇相关文章
+2025-05-12 16:49:58,349 - gold_scraper - INFO - 正在抓取源: https://www.bullionvault.com/gold-news
+2025-05-12 16:49:59,711 - gold_scraper - INFO - 在 bullionvault.com 找到 83 个唯一链接
+2025-05-12 16:49:59,737 - gold_scraper - INFO - 从 bullionvault.com 提取了 10 篇相关文章
+2025-05-12 16:50:02,739 - gold_scraper - INFO - 正在抓取源: https://www.moneymetals.com/news
+2025-05-12 16:50:03,486 - gold_scraper - WARNING - HTTP错误 403: https://www.moneymetals.com/news
+2025-05-12 16:50:03,486 - gold_scraper - INFO - 重试请求 https://www.moneymetals.com/news，延迟 5.93 秒...
+2025-05-12 16:50:09,929 - gold_scraper - WARNING - HTTP错误 403: https://www.moneymetals.com/news
+2025-05-12 16:50:09,929 - gold_scraper - INFO - 重试请求 https://www.moneymetals.com/news，延迟 4.16 秒...
+2025-05-12 16:50:14,491 - gold_scraper - WARNING - HTTP错误 403: https://www.moneymetals.com/news
+2025-05-12 16:50:14,491 - gold_scraper - ERROR - 达到最大重试次数，无法获取: https://www.moneymetals.com/news
+2025-05-12 16:50:14,493 - gold_scraper - INFO - 正在抓取源: https://www.apmex.com/blog/category/market-updates
+2025-05-12 16:50:14,941 - gold_scraper - WARNING - HTTP错误 403: https://www.apmex.com/blog/category/market-updates
+2025-05-12 16:50:14,941 - gold_scraper - INFO - 重试请求 https://www.apmex.com/blog/category/market-updates，延迟 5.22 秒...
+2025-05-12 16:50:21,384 - gold_scraper - WARNING - HTTP错误 403: https://www.apmex.com/blog/category/market-updates
+2025-05-12 16:50:21,384 - gold_scraper - INFO - 重试请求 https://www.apmex.com/blog/category/market-updates，延迟 5.22 秒...
+2025-05-12 16:50:27,115 - gold_scraper - WARNING - HTTP错误 403: https://www.apmex.com/blog/category/market-updates
+2025-05-12 16:50:27,117 - gold_scraper - ERROR - 达到最大重试次数，无法获取: https://www.apmex.com/blog/category/market-updates
+2025-05-12 16:50:27,119 - gold_scraper - INFO - 总共抓取了 10 篇文章
+2025-05-12 16:50:27,120 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-news/infographics/ai-gold-precious-metal-price-forecasts
+2025-05-12 16:50:31,706 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-guide/gold-bars
+2025-05-12 16:50:36,221 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-guide/gold-coins
+2025-05-12 16:50:40,534 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-news/market-fundamentals/silver-investing-record-price-deficit-2025-030720252
+2025-05-12 16:50:45,176 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-news/gold-price-news/gold-trade-tariffs-fed-rates-050920251
+2025-05-12 16:50:49,890 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-news/gold-investor-index/trump-gold-investing-030420251
+2025-05-12 16:50:54,258 - gold_scraper - INFO - 提取文章内容: http://www.bullionvault.com/secure/edit_communications_preferences.do
+2025-05-12 16:50:59,795 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-news/
+2025-05-12 16:51:04,897 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-guide/gold-investment
+2025-05-12 16:51:09,421 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-news/gold-investor-index
+2025-05-12 16:51:10,136 - gold_scraper - INFO - 从数据库加载了 0 篇现有文章
+2025-05-12 16:51:10,136 - gold_scraper - INFO - 添加了 10 篇新文章到数据库
+2025-05-12 16:51:10,137 - gold_scraper - INFO - 抓取完成!
+2025-05-12 17:07:16,617 - gold_scraper - INFO - 使用ARM Mac兼容的User-Agent
+2025-05-12 17:07:16,648 - arch_compat - INFO - 检测到Apple Silicon (ARM)架构，应用兼容性设置
+2025-05-12 17:07:16,653 - gold_scraper - INFO - 爬虫初始化完成，使用 10 个新闻源
+2025-05-12 17:07:16,658 - gold_scraper - INFO - 使用架构兼容性支持: True
+2025-05-12 17:07:16,659 - gold_scraper - INFO - 使用代理: False
+2025-05-12 17:07:16,659 - gold_scraper - INFO - 开始抓取黄金新闻...
+2025-05-12 17:07:16,659 - gold_scraper - INFO - 正在抓取源: https://www.kitco.com/news/category/gold-news/
+2025-05-12 17:07:18,111 - gold_scraper - INFO - 在 kitco.com 找到 0 个唯一链接
+2025-05-12 17:07:18,112 - gold_scraper - INFO - 从 kitco.com 提取了 0 篇相关文章
+2025-05-12 17:07:21,555 - gold_scraper - INFO - 正在抓取源: https://www.gold.org/news-and-events/news
+2025-05-12 17:07:22,900 - gold_scraper - ERROR - 资源不存在 (404): https://www.gold.org/news-and-events/news
+2025-05-12 17:07:22,900 - gold_scraper - INFO - 正在抓取源: https://goldprice.org/gold-news.html
+2025-05-12 17:07:24,481 - gold_scraper - ERROR - 资源不存在 (404): https://goldprice.org/gold-news.html
+2025-05-12 17:07:24,481 - gold_scraper - INFO - 正在抓取源: https://www.reuters.com/markets/commodities/
+2025-05-12 17:07:25,012 - gold_scraper - WARNING - HTTP错误 401: https://www.reuters.com/markets/commodities/
+2025-05-12 17:07:25,013 - gold_scraper - INFO - 重试请求 https://www.reuters.com/markets/commodities/，延迟 9.01 秒...
+2025-05-12 17:07:34,184 - gold_scraper - WARNING - HTTP错误 401: https://www.reuters.com/markets/commodities/
+2025-05-12 17:07:34,185 - gold_scraper - INFO - 重试请求 https://www.reuters.com/markets/commodities/，延迟 9.10 秒...
+2025-05-12 17:07:43,439 - gold_scraper - WARNING - HTTP错误 401: https://www.reuters.com/markets/commodities/
+2025-05-12 17:07:43,439 - gold_scraper - ERROR - 达到最大重试次数，无法获取: https://www.reuters.com/markets/commodities/
+2025-05-12 17:07:43,439 - gold_scraper - INFO - 正在抓取源: https://www.bloomberg.com/markets/commodities/futures/metals
+2025-05-12 17:07:44,295 - gold_scraper - INFO - 在 bloomberg.com 找到 0 个唯一链接
+2025-05-12 17:07:44,295 - gold_scraper - INFO - 从 bloomberg.com 提取了 0 篇相关文章
+2025-05-12 17:07:48,683 - gold_scraper - INFO - 正在抓取源: https://www.investing.com/news/commodities-news
+2025-05-12 17:07:49,100 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.investing.com/news/commodities-news
+2025-05-12 17:08:04,111 - gold_scraper - INFO - 重试请求 https://www.investing.com/news/commodities-news，延迟 11.57 秒...
+2025-05-12 17:08:16,131 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.investing.com/news/commodities-news
+2025-05-12 17:08:46,139 - gold_scraper - INFO - 重试请求 https://www.investing.com/news/commodities-news，延迟 16.75 秒...
+2025-05-12 17:09:03,346 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.investing.com/news/commodities-news
+2025-05-12 17:09:03,351 - gold_scraper - INFO - 尝试创建新会话...
+2025-05-12 17:09:03,362 - arch_compat - INFO - 检测到Apple Silicon (ARM)架构，应用兼容性设置
+2025-05-12 17:09:22,832 - main - INFO - 已启用ARM Mac兼容性支持
+2025-05-12 17:09:22,837 - main - INFO - 系统兼容性报告:
+----------------
+操作系统: Darwin Darwin Kernel Version 24.4.0: Fri Apr 11 18:34:14 PDT 2025; root:xnu-11417.101.15~117/RELEASE_ARM64_T8122
+处理器: arm
+架构: arm64 (64bit)
+Apple Silicon: M3
+* 已应用ARM兼容性设置
+* 使用Intel Mac的User-Agent伪装
+* 已禁用可能泄露架构的HTTP标头
+Python: CPython 3.9.21
+----------------
+2025-05-12 17:09:22,886 - main - INFO - 开始运行旧版爬虫...
+2025-05-12 17:09:22,887 - app.gold_scraper - INFO - Fetching article list from https://www.kitco.com/market/ (domain: kitco.com)
+2025-05-12 17:09:25,443 - app.gold_scraper - INFO - Response status: 200
+2025-05-12 17:09:25,456 - app.gold_scraper - WARNING - No articles found with requests for kitco.com, trying Selenium
+2025-05-12 17:09:25,463 - WDM - INFO - ====== WebDriver manager ======
+2025-05-12 17:09:25,586 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-12 17:09:25,818 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-12 17:09:26,038 - WDM - INFO - Driver [/Users/panyiming/.wdm/drivers/chromedriver/mac64/136.0.7103.92/chromedriver-mac-arm64/chromedriver] found in cache
+2025-05-12 17:09:48,379 - gold_scraper - ERROR - 达到最大重试次数，无法获取: https://www.investing.com/news/commodities-news
+2025-05-12 17:09:48,396 - gold_scraper - INFO - 正在抓取源: https://www.ft.com/commodities
+2025-05-12 17:09:50,186 - gold_scraper - INFO - 在 ft.com 找到 2 个唯一链接
+2025-05-12 17:09:50,187 - gold_scraper - INFO - 从 ft.com 提取了 0 篇相关文章
+2025-05-12 17:09:55,246 - gold_scraper - INFO - 正在抓取源: https://www.bullionvault.com/gold-news
+2025-05-12 17:09:56,748 - gold_scraper - INFO - 在 bullionvault.com 找到 83 个唯一链接
+2025-05-12 17:09:56,777 - gold_scraper - INFO - 从 bullionvault.com 提取了 10 篇相关文章
+2025-05-12 17:10:00,893 - gold_scraper - INFO - 正在抓取源: https://www.moneymetals.com/news
+2025-05-12 17:10:01,520 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.moneymetals.com/news
+2025-05-12 17:10:16,528 - gold_scraper - INFO - 重试请求 https://www.moneymetals.com/news，延迟 7.51 秒...
+2025-05-12 17:10:24,346 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.moneymetals.com/news
+2025-05-12 17:10:54,355 - gold_scraper - INFO - 重试请求 https://www.moneymetals.com/news，延迟 16.86 秒...
+2025-05-12 17:11:11,476 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.moneymetals.com/news
+2025-05-12 17:11:11,482 - gold_scraper - INFO - 尝试创建新会话...
+2025-05-12 17:11:11,554 - arch_compat - INFO - 检测到Apple Silicon (ARM)架构，应用兼容性设置
+2025-05-12 17:11:13,409 - app.gold_scraper - WARNING - Timeout waiting for articles to load: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001028e03bc cxxbridge1$str$ptr + 2829900
+1   chromedriver                        0x00000001028d8684 cxxbridge1$str$ptr + 2797844
+2   chromedriver                        0x0000000102415fbc cxxbridge1$string$len + 90140
+3   chromedriver                        0x000000010245d1bc cxxbridge1$string$len + 381468
+4   chromedriver                        0x000000010249e044 cxxbridge1$string$len + 647332
+5   chromedriver                        0x00000001024513f8 cxxbridge1$string$len + 332888
+6   chromedriver                        0x00000001028a47e0 cxxbridge1$str$ptr + 2585200
+7   chromedriver                        0x00000001028a7ab0 cxxbridge1$str$ptr + 2598208
+8   chromedriver                        0x0000000102885db4 cxxbridge1$str$ptr + 2459716
+9   chromedriver                        0x00000001028a8328 cxxbridge1$str$ptr + 2600376
+10  chromedriver                        0x0000000102877640 cxxbridge1$str$ptr + 2400464
+11  chromedriver                        0x00000001028c828c cxxbridge1$str$ptr + 2731292
+12  chromedriver                        0x00000001028c8418 cxxbridge1$str$ptr + 2731688
+13  chromedriver                        0x00000001028d82d0 cxxbridge1$str$ptr + 2796896
+14  libsystem_pthread.dylib             0x00000001981e9c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x00000001981e4b80 thread_start + 8
+
+2025-05-12 17:11:16,798 - app.gold_scraper - INFO - Found 0 article elements for kitco.com
+2025-05-12 17:11:16,798 - app.gold_scraper - INFO - Fetched 0 matching articles from kitco.com
+2025-05-12 17:11:16,799 - app.gold_scraper - INFO - Fetching article list from https://www.investing.com/commodities/gold (domain: investing.com)
+2025-05-12 17:11:17,331 - app.gold_scraper - INFO - Response status: 200
+2025-05-12 17:11:17,349 - app.gold_scraper - WARNING - No articles found with requests for investing.com, trying Selenium
+2025-05-12 17:11:17,351 - WDM - INFO - ====== WebDriver manager ======
+2025-05-12 17:11:17,500 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-12 17:11:17,758 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-12 17:11:18,111 - WDM - INFO - Driver [/Users/panyiming/.wdm/drivers/chromedriver/mac64/136.0.7103.92/chromedriver-mac-arm64/chromedriver] found in cache
+2025-05-12 17:11:56,567 - gold_scraper - ERROR - 达到最大重试次数，无法获取: https://www.moneymetals.com/news
+2025-05-12 17:11:56,578 - gold_scraper - INFO - 正在抓取源: https://www.apmex.com/blog/category/market-updates
+2025-05-12 17:11:57,060 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.apmex.com/blog/category/market-updates
+2025-05-12 17:12:12,071 - gold_scraper - INFO - 重试请求 https://www.apmex.com/blog/category/market-updates，延迟 6.80 秒...
+2025-05-12 17:12:19,534 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.apmex.com/blog/category/market-updates
+2025-05-12 17:12:49,543 - gold_scraper - INFO - 重试请求 https://www.apmex.com/blog/category/market-updates，延迟 11.47 秒...
+2025-05-12 17:13:01,742 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.apmex.com/blog/category/market-updates
+2025-05-12 17:13:01,747 - gold_scraper - INFO - 尝试创建新会话...
+2025-05-12 17:13:01,764 - arch_compat - INFO - 检测到Apple Silicon (ARM)架构，应用兼容性设置
+2025-05-12 17:13:18,972 - app.gold_scraper - WARNING - Timeout waiting for articles to load: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104cf83bc cxxbridge1$str$ptr + 2829900
+1   chromedriver                        0x0000000104cf0684 cxxbridge1$str$ptr + 2797844
+2   chromedriver                        0x000000010482dfbc cxxbridge1$string$len + 90140
+3   chromedriver                        0x00000001048751bc cxxbridge1$string$len + 381468
+4   chromedriver                        0x00000001048b6044 cxxbridge1$string$len + 647332
+5   chromedriver                        0x00000001048693f8 cxxbridge1$string$len + 332888
+6   chromedriver                        0x0000000104cbc7e0 cxxbridge1$str$ptr + 2585200
+7   chromedriver                        0x0000000104cbfab0 cxxbridge1$str$ptr + 2598208
+8   chromedriver                        0x0000000104c9ddb4 cxxbridge1$str$ptr + 2459716
+9   chromedriver                        0x0000000104cc0328 cxxbridge1$str$ptr + 2600376
+10  chromedriver                        0x0000000104c8f640 cxxbridge1$str$ptr + 2400464
+11  chromedriver                        0x0000000104ce028c cxxbridge1$str$ptr + 2731292
+12  chromedriver                        0x0000000104ce0418 cxxbridge1$str$ptr + 2731688
+13  chromedriver                        0x0000000104cf02d0 cxxbridge1$str$ptr + 2796896
+14  libsystem_pthread.dylib             0x00000001981e9c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x00000001981e4b80 thread_start + 8
+
+2025-05-12 17:13:22,823 - app.gold_scraper - INFO - Found 0 article elements for investing.com
+2025-05-12 17:13:22,823 - app.gold_scraper - INFO - Fetched 0 matching articles from investing.com
+2025-05-12 17:13:22,823 - app.gold_scraper - INFO - Fetching article list from https://finance.yahoo.com/quote/GC=F (domain: finance.yahoo.com)
+2025-05-12 17:13:25,676 - app.gold_scraper - INFO - Response status: 200
+2025-05-12 17:13:25,752 - app.gold_scraper - WARNING - No articles found with requests for finance.yahoo.com, trying Selenium
+2025-05-12 17:13:25,772 - WDM - INFO - ====== WebDriver manager ======
+2025-05-12 17:13:25,901 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-12 17:13:26,676 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-12 17:13:27,388 - WDM - INFO - Driver [/Users/panyiming/.wdm/drivers/chromedriver/mac64/136.0.7103.92/chromedriver-mac-arm64/chromedriver] found in cache
+2025-05-12 17:13:46,778 - gold_scraper - ERROR - 达到最大重试次数，无法获取: https://www.apmex.com/blog/category/market-updates
+2025-05-12 17:13:46,783 - gold_scraper - INFO - 总共抓取了 10 篇文章
+2025-05-12 17:13:46,783 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-news/infographics/ai-gold-precious-metal-price-forecasts
+2025-05-12 17:13:51,876 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-guide/gold-bars
+2025-05-12 17:13:56,465 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-guide/gold-coins
+2025-05-12 17:14:00,687 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-news/market-fundamentals/silver-investing-record-price-deficit-2025-030720252
+2025-05-12 17:14:04,982 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-news/gold-price-news/gold-trade-tariffs-fed-rates-050920251
+2025-05-12 17:14:08,112 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-news/gold-investor-index/trump-gold-investing-030420251
+2025-05-12 17:14:10,611 - gold_scraper - INFO - 提取文章内容: http://www.bullionvault.com/secure/edit_communications_preferences.do
+2025-05-12 17:14:15,927 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-news/
+2025-05-12 17:14:20,313 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-guide/gold-investment
+2025-05-12 17:14:23,933 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-news/gold-investor-index
+2025-05-12 17:14:24,565 - gold_scraper - INFO - 从数据库加载了 10 篇现有文章
+2025-05-12 17:14:24,566 - gold_scraper - INFO - 添加了 0 篇新文章到数据库
+2025-05-12 17:14:24,566 - gold_scraper - WARNING - 本次抓取中有 6 个无效URL
+2025-05-12 17:14:24,566 - gold_scraper - INFO - 抓取完成!
+2025-05-12 17:15:01,576 - app.gold_scraper - WARNING - Timeout waiting for articles to load: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001048c43bc cxxbridge1$str$ptr + 2829900
+1   chromedriver                        0x00000001048bc684 cxxbridge1$str$ptr + 2797844
+2   chromedriver                        0x00000001043f9fbc cxxbridge1$string$len + 90140
+3   chromedriver                        0x00000001044411bc cxxbridge1$string$len + 381468
+4   chromedriver                        0x0000000104482044 cxxbridge1$string$len + 647332
+5   chromedriver                        0x00000001044353f8 cxxbridge1$string$len + 332888
+6   chromedriver                        0x00000001048887e0 cxxbridge1$str$ptr + 2585200
+7   chromedriver                        0x000000010488bab0 cxxbridge1$str$ptr + 2598208
+8   chromedriver                        0x0000000104869db4 cxxbridge1$str$ptr + 2459716
+9   chromedriver                        0x000000010488c328 cxxbridge1$str$ptr + 2600376
+10  chromedriver                        0x000000010485b640 cxxbridge1$str$ptr + 2400464
+11  chromedriver                        0x00000001048ac28c cxxbridge1$str$ptr + 2731292
+12  chromedriver                        0x00000001048ac418 cxxbridge1$str$ptr + 2731688
+13  chromedriver                        0x00000001048bc2d0 cxxbridge1$str$ptr + 2796896
+14  libsystem_pthread.dylib             0x00000001981e9c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x00000001981e4b80 thread_start + 8
+
+2025-05-12 17:15:05,353 - app.gold_scraper - INFO - Found 0 article elements for finance.yahoo.com
+2025-05-12 17:15:05,354 - app.gold_scraper - INFO - Fetched 0 matching articles from finance.yahoo.com
+2025-05-12 17:15:05,354 - app.gold_scraper - INFO - Fetching article list from https://www.marketwatch.com/investing/future/gc00 (domain: marketwatch.com)
+2025-05-12 17:15:06,495 - app.gold_scraper - INFO - Response status: 200
+2025-05-12 17:15:06,570 - app.gold_scraper - INFO - Found 20 article elements for marketwatch.com
+2025-05-12 17:15:06,574 - app.gold_scraper - INFO - Fetched 5 matching articles from marketwatch.com
+2025-05-12 17:15:06,574 - app.gold_scraper - INFO - Fetching article list from https://www.cnbc.com/precious-metals/ (domain: cnbc.com)
+2025-05-12 17:15:08,622 - app.gold_scraper - INFO - Response status: 404
+2025-05-12 17:15:08,623 - app.gold_scraper - ERROR - Error fetching article list from https://www.cnbc.com/precious-metals/: 404 Client Error: Not Found for url: https://www.cnbc.com/precious-metals/
+2025-05-12 17:15:08,623 - app.gold_scraper - INFO - Fetching article list from https://www.federalreserve.gov/newsevents/pressreleases.htm (domain: federalreserve.gov)
+2025-05-12 17:15:10,200 - app.gold_scraper - INFO - Response status: 200
+2025-05-12 17:15:10,234 - app.gold_scraper - WARNING - No articles found with requests for federalreserve.gov, trying Selenium
+2025-05-12 17:15:10,243 - WDM - INFO - ====== WebDriver manager ======
+2025-05-12 17:15:10,380 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-12 17:15:11,148 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-12 17:15:12,088 - WDM - INFO - Driver [/Users/panyiming/.wdm/drivers/chromedriver/mac64/136.0.7103.92/chromedriver-mac-arm64/chromedriver] found in cache
+2025-05-12 17:15:30,835 - app.gold_scraper - WARNING - Timeout waiting for articles to load: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104c283bc cxxbridge1$str$ptr + 2829900
+1   chromedriver                        0x0000000104c20684 cxxbridge1$str$ptr + 2797844
+2   chromedriver                        0x000000010475dfbc cxxbridge1$string$len + 90140
+3   chromedriver                        0x00000001047a51bc cxxbridge1$string$len + 381468
+4   chromedriver                        0x00000001047e6044 cxxbridge1$string$len + 647332
+5   chromedriver                        0x00000001047993f8 cxxbridge1$string$len + 332888
+6   chromedriver                        0x0000000104bec7e0 cxxbridge1$str$ptr + 2585200
+7   chromedriver                        0x0000000104befab0 cxxbridge1$str$ptr + 2598208
+8   chromedriver                        0x0000000104bcddb4 cxxbridge1$str$ptr + 2459716
+9   chromedriver                        0x0000000104bf0328 cxxbridge1$str$ptr + 2600376
+10  chromedriver                        0x0000000104bbf640 cxxbridge1$str$ptr + 2400464
+11  chromedriver                        0x0000000104c1028c cxxbridge1$str$ptr + 2731292
+12  chromedriver                        0x0000000104c10418 cxxbridge1$str$ptr + 2731688
+13  chromedriver                        0x0000000104c202d0 cxxbridge1$str$ptr + 2796896
+14  libsystem_pthread.dylib             0x00000001981e9c0c _pthread_start + 136
+15  libsystem_pthread.dylib             0x00000001981e4b80 thread_start + 8
+
+2025-05-12 17:15:34,608 - app.gold_scraper - INFO - Found 0 article elements for federalreserve.gov
+2025-05-12 17:15:34,608 - app.gold_scraper - INFO - Fetched 0 matching articles from federalreserve.gov
+2025-05-12 17:15:34,608 - app.gold_scraper - INFO - Fetching Fed reports from https://www.federalreserve.gov/newsevents/pressreleases.htm
+2025-06-07 15:18:37,562 - gold_scraper - INFO - 使用ARM Mac兼容的User-Agent
+2025-06-07 15:18:37,587 - arch_compat - INFO - 检测到Apple Silicon (ARM)架构，应用兼容性设置
+2025-06-07 15:18:37,591 - gold_scraper - INFO - 爬虫初始化完成，使用 10 个新闻源
+2025-06-07 15:18:37,595 - gold_scraper - INFO - 使用架构兼容性支持: True
+2025-06-07 15:18:37,595 - gold_scraper - INFO - 使用代理: False
+2025-06-07 15:18:37,595 - scheduler - INFO - Running scraper immediately (on demand)
+2025-06-07 15:18:37,595 - gold_scraper - INFO - 开始抓取黄金新闻...
+2025-06-07 15:18:37,595 - gold_scraper - INFO - 正在抓取源: https://www.kitco.com/news/category/gold-news/
+2025-06-07 15:18:39,342 - gold_scraper - INFO - 在 kitco.com 找到 0 个唯一链接
+2025-06-07 15:18:39,342 - gold_scraper - INFO - 从 kitco.com 提取了 0 篇相关文章
+2025-06-07 15:18:45,045 - gold_scraper - INFO - 正在抓取源: https://www.gold.org/news-and-events/news
+2025-06-07 15:18:46,364 - gold_scraper - ERROR - 资源不存在 (404): https://www.gold.org/news-and-events/news
+2025-06-07 15:18:46,365 - gold_scraper - INFO - 正在抓取源: https://goldprice.org/gold-news.html
+2025-06-07 15:18:48,508 - gold_scraper - ERROR - 资源不存在 (404): https://goldprice.org/gold-news.html
+2025-06-07 15:18:48,508 - gold_scraper - INFO - 正在抓取源: https://www.reuters.com/markets/commodities/
+2025-06-07 15:18:50,086 - gold_scraper - INFO - 在 reuters.com 找到 10 个唯一链接
+2025-06-07 15:18:50,087 - gold_scraper - INFO - 从 reuters.com 提取了 0 篇相关文章
+2025-06-07 15:18:53,646 - gold_scraper - INFO - 正在抓取源: https://www.bloomberg.com/markets/commodities/futures/metals
+2025-06-07 15:18:55,364 - gold_scraper - INFO - 在 bloomberg.com 找到 9 个唯一链接
+2025-06-07 15:18:55,364 - gold_scraper - INFO - 从 bloomberg.com 提取了 2 篇相关文章
+2025-06-07 15:19:00,611 - gold_scraper - INFO - 正在抓取源: https://www.investing.com/news/commodities-news
+2025-06-07 15:19:01,246 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.investing.com/news/commodities-news
+2025-06-07 15:19:16,261 - gold_scraper - INFO - 重试请求 https://www.investing.com/news/commodities-news，延迟 7.57 秒...
+2025-06-07 15:19:24,619 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.investing.com/news/commodities-news
+2025-06-07 15:19:54,630 - gold_scraper - INFO - 重试请求 https://www.investing.com/news/commodities-news，延迟 10.16 秒...
+2025-06-07 15:20:05,357 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.investing.com/news/commodities-news
+2025-06-07 15:20:05,360 - gold_scraper - INFO - 尝试创建新会话...
+2025-06-07 15:20:05,370 - arch_compat - INFO - 检测到Apple Silicon (ARM)架构，应用兼容性设置
+2025-06-07 15:20:50,380 - gold_scraper - ERROR - 达到最大重试次数，无法获取: https://www.investing.com/news/commodities-news
+2025-06-07 15:20:50,383 - gold_scraper - INFO - 正在抓取源: https://www.ft.com/commodities
+2025-06-07 15:20:51,771 - gold_scraper - INFO - 在 ft.com 找到 2 个唯一链接
+2025-06-07 15:20:51,771 - gold_scraper - INFO - 从 ft.com 提取了 0 篇相关文章
+2025-06-07 15:20:57,198 - gold_scraper - INFO - 正在抓取源: https://www.bullionvault.com/gold-news
+2025-06-07 15:20:58,913 - gold_scraper - INFO - 在 bullionvault.com 找到 84 个唯一链接
+2025-06-07 15:20:58,935 - gold_scraper - INFO - 从 bullionvault.com 提取了 10 篇相关文章
+2025-06-07 15:21:03,203 - gold_scraper - INFO - 正在抓取源: https://www.moneymetals.com/news
+2025-06-07 15:21:03,645 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.moneymetals.com/news
+2025-06-07 15:21:18,660 - gold_scraper - INFO - 重试请求 https://www.moneymetals.com/news，延迟 10.64 秒...
+2025-06-07 15:21:29,783 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.moneymetals.com/news
+2025-06-07 15:21:59,795 - gold_scraper - INFO - 重试请求 https://www.moneymetals.com/news，延迟 14.28 秒...
+2025-06-07 15:22:14,584 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.moneymetals.com/news
+2025-06-07 15:22:14,593 - gold_scraper - INFO - 尝试创建新会话...
+2025-06-07 15:22:14,610 - arch_compat - INFO - 检测到Apple Silicon (ARM)架构，应用兼容性设置
+2025-06-07 15:22:59,625 - gold_scraper - ERROR - 达到最大重试次数，无法获取: https://www.moneymetals.com/news
+2025-06-07 15:22:59,627 - gold_scraper - INFO - 正在抓取源: https://www.apmex.com/blog/category/market-updates
+2025-06-07 15:23:00,265 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.apmex.com/blog/category/market-updates
+2025-06-07 15:23:15,277 - gold_scraper - INFO - 重试请求 https://www.apmex.com/blog/category/market-updates，延迟 7.17 秒...
+2025-06-07 15:23:22,950 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.apmex.com/blog/category/market-updates
+2025-06-07 15:23:52,960 - gold_scraper - INFO - 重试请求 https://www.apmex.com/blog/category/market-updates，延迟 9.20 秒...
+2025-06-07 15:24:02,562 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.apmex.com/blog/category/market-updates
+2025-06-07 15:24:02,568 - gold_scraper - INFO - 尝试创建新会话...
+2025-06-07 15:24:02,582 - arch_compat - INFO - 检测到Apple Silicon (ARM)架构，应用兼容性设置
+2025-06-07 15:24:47,596 - gold_scraper - ERROR - 达到最大重试次数，无法获取: https://www.apmex.com/blog/category/market-updates
+2025-06-07 15:24:47,599 - gold_scraper - INFO - 总共抓取了 12 篇文章
+2025-06-07 15:24:47,599 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-news/gold-price-news/silver-platinum-price-lease-060620251
+2025-06-07 15:24:51,683 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-news/news/silver-gold-ratio-050120251
+2025-06-07 15:24:56,328 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-guide/gold-bars
+2025-06-07 15:25:01,771 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-guide/gold-coins
+2025-06-07 15:25:06,833 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-news/market-fundamentals/silver-investing-record-price-deficit-2025-030720252
+2025-06-07 15:25:10,452 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-news/gold-investor-index/trump-gold-investing-030420251
+2025-06-07 15:25:14,659 - gold_scraper - INFO - 提取文章内容: http://www.bullionvault.com/secure/edit_communications_preferences.do
+2025-06-07 15:25:19,689 - gold_scraper - INFO - 提取文章内容: https://www.bloomberg.com/news/articles/2025-06-06/gold-s-cheaper-precious-metals-cousins-surge-to-multi-year-highs
+2025-06-07 15:25:24,236 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-news/
+2025-06-07 15:25:30,601 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-guide/gold-investment
+2025-06-07 15:25:36,048 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-news/gold-investor-index
+2025-06-07 15:25:40,331 - gold_scraper - INFO - 提取文章内容: https://www.bloomberg.com/news/articles/2025-06-03/gold-market-s-record-breaking-rally-powered-by-central-bank-buying
+2025-06-07 15:25:42,452 - gold_scraper - INFO - 从数据库加载了 10 篇现有文章
+2025-06-07 15:25:42,453 - gold_scraper - INFO - 添加了 12 篇新文章到数据库
+2025-06-07 15:25:42,453 - gold_scraper - WARNING - 本次抓取中有 5 个无效URL
+2025-06-07 15:25:42,453 - gold_scraper - INFO - 抓取完成!
+2025-06-07 15:25:42,453 - scheduler - INFO - Immediate scrape completed, found 12 new articles
+2025-06-07 15:25:42,453 - scheduler - INFO - Starting scheduler with 30.0 minute interval
+2025-06-07 15:25:42,453 - scheduler - INFO - Starting scheduled scrape at 2025-06-07T15:25:42.453254
+2025-06-07 15:25:42,453 - gold_scraper - INFO - 开始抓取黄金新闻...
+2025-06-07 15:25:42,453 - gold_scraper - INFO - 正在抓取源: https://www.kitco.com/news/category/gold-news/
+2025-06-07 15:25:44,505 - gold_scraper - INFO - 在 kitco.com 找到 0 个唯一链接
+2025-06-07 15:25:44,505 - gold_scraper - INFO - 从 kitco.com 提取了 0 篇相关文章
+2025-06-07 15:25:47,526 - gold_scraper - INFO - 正在抓取源: https://www.gold.org/news-and-events/news
+2025-06-07 15:25:48,594 - gold_scraper - WARNING - HTTP错误 503: https://www.gold.org/news-and-events/news
+2025-06-07 15:25:48,594 - gold_scraper - INFO - 重试请求 https://www.gold.org/news-and-events/news，延迟 10.98 秒...
+2025-06-07 15:26:00,435 - gold_scraper - WARNING - HTTP错误 503: https://www.gold.org/news-and-events/news
+2025-06-07 15:26:00,436 - gold_scraper - INFO - 重试请求 https://www.gold.org/news-and-events/news，延迟 14.90 秒...
+2025-06-07 15:26:15,802 - gold_scraper - WARNING - HTTP错误 503: https://www.gold.org/news-and-events/news
+2025-06-07 15:26:15,802 - gold_scraper - ERROR - 达到最大重试次数，无法获取: https://www.gold.org/news-and-events/news
+2025-06-07 15:26:15,802 - gold_scraper - INFO - 正在抓取源: https://goldprice.org/gold-news.html
+2025-06-07 15:26:17,380 - gold_scraper - ERROR - 资源不存在 (404): https://goldprice.org/gold-news.html
+2025-06-07 15:26:17,380 - gold_scraper - INFO - 正在抓取源: https://www.reuters.com/markets/commodities/
+2025-06-07 15:26:19,123 - gold_scraper - INFO - 在 reuters.com 找到 10 个唯一链接
+2025-06-07 15:26:19,123 - gold_scraper - INFO - 从 reuters.com 提取了 0 篇相关文章
+2025-06-07 15:26:24,742 - gold_scraper - INFO - 正在抓取源: https://www.bloomberg.com/markets/commodities/futures/metals
+2025-06-07 15:26:26,694 - gold_scraper - INFO - 在 bloomberg.com 找到 9 个唯一链接
+2025-06-07 15:26:26,694 - gold_scraper - INFO - 从 bloomberg.com 提取了 2 篇相关文章
+2025-06-07 15:26:31,048 - gold_scraper - INFO - 正在抓取源: https://www.investing.com/news/commodities-news
+2025-06-07 15:26:31,535 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.investing.com/news/commodities-news
+2025-06-07 15:26:46,545 - gold_scraper - INFO - 重试请求 https://www.investing.com/news/commodities-news，延迟 9.39 秒...
+2025-06-07 15:26:56,559 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.investing.com/news/commodities-news
+2025-06-07 15:27:26,571 - gold_scraper - INFO - 重试请求 https://www.investing.com/news/commodities-news，延迟 15.30 秒...
+2025-06-07 15:27:42,455 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.investing.com/news/commodities-news
+2025-06-07 15:27:42,461 - gold_scraper - INFO - 尝试创建新会话...
+2025-06-07 15:27:42,478 - arch_compat - INFO - 检测到Apple Silicon (ARM)架构，应用兼容性设置
+2025-06-07 15:28:27,490 - gold_scraper - ERROR - 达到最大重试次数，无法获取: https://www.investing.com/news/commodities-news
+2025-06-07 15:28:27,493 - gold_scraper - INFO - 正在抓取源: https://www.ft.com/commodities
+2025-06-07 15:28:29,374 - gold_scraper - INFO - 在 ft.com 找到 2 个唯一链接
+2025-06-07 15:28:29,375 - gold_scraper - INFO - 从 ft.com 提取了 0 篇相关文章
+2025-06-07 15:28:32,723 - gold_scraper - INFO - 正在抓取源: https://www.bullionvault.com/gold-news
+2025-06-07 15:28:34,570 - gold_scraper - INFO - 在 bullionvault.com 找到 84 个唯一链接
+2025-06-07 15:28:34,592 - gold_scraper - INFO - 从 bullionvault.com 提取了 10 篇相关文章
+2025-06-07 15:28:39,451 - gold_scraper - INFO - 正在抓取源: https://www.moneymetals.com/news
+2025-06-07 15:28:39,989 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.moneymetals.com/news
+2025-06-07 15:28:55,003 - gold_scraper - INFO - 重试请求 https://www.moneymetals.com/news，延迟 8.79 秒...
+2025-06-07 15:29:04,538 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.moneymetals.com/news
+2025-06-07 15:29:34,545 - gold_scraper - INFO - 重试请求 https://www.moneymetals.com/news，延迟 13.67 秒...
+2025-06-07 15:29:48,791 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.moneymetals.com/news
+2025-06-07 15:29:48,797 - gold_scraper - INFO - 尝试创建新会话...
+2025-06-07 15:29:48,812 - arch_compat - INFO - 检测到Apple Silicon (ARM)架构，应用兼容性设置
+2025-06-07 15:30:33,827 - gold_scraper - ERROR - 达到最大重试次数，无法获取: https://www.moneymetals.com/news
+2025-06-07 15:30:33,830 - gold_scraper - INFO - 正在抓取源: https://www.apmex.com/blog/category/market-updates
+2025-06-07 15:30:34,459 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.apmex.com/blog/category/market-updates
+2025-06-07 15:30:49,472 - gold_scraper - INFO - 重试请求 https://www.apmex.com/blog/category/market-updates，延迟 10.47 秒...
+2025-06-07 15:31:00,482 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.apmex.com/blog/category/market-updates
+2025-06-07 15:31:30,495 - gold_scraper - INFO - 重试请求 https://www.apmex.com/blog/category/market-updates，延迟 10.73 秒...
+2025-06-07 15:31:41,695 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.apmex.com/blog/category/market-updates
+2025-06-07 15:31:41,698 - gold_scraper - INFO - 尝试创建新会话...
+2025-06-07 15:31:41,708 - arch_compat - INFO - 检测到Apple Silicon (ARM)架构，应用兼容性设置
+2025-06-07 15:32:26,720 - gold_scraper - ERROR - 达到最大重试次数，无法获取: https://www.apmex.com/blog/category/market-updates
+2025-06-07 15:32:26,722 - gold_scraper - INFO - 总共抓取了 12 篇文章
+2025-06-07 15:32:26,722 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-news/gold-price-news/silver-platinum-price-lease-060620251
+2025-06-07 15:32:31,403 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-news/news/silver-gold-ratio-050120251
+2025-06-07 15:32:34,785 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-guide/gold-bars
+2025-06-07 15:32:40,287 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-guide/gold-coins
+2025-06-07 15:32:45,654 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-news/market-fundamentals/silver-investing-record-price-deficit-2025-030720252
+2025-06-07 15:32:50,324 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-news/gold-investor-index/trump-gold-investing-030420251
+2025-06-07 15:32:55,363 - gold_scraper - INFO - 提取文章内容: http://www.bullionvault.com/secure/edit_communications_preferences.do
+2025-06-07 15:33:01,545 - gold_scraper - INFO - 提取文章内容: https://www.bloomberg.com/news/articles/2025-06-06/gold-s-cheaper-precious-metals-cousins-surge-to-multi-year-highs
+2025-06-07 15:33:05,270 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-news/
+2025-06-07 15:33:11,824 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-guide/gold-investment
+2025-06-07 15:33:14,920 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-news/gold-investor-index
+2025-06-07 15:33:18,588 - gold_scraper - INFO - 提取文章内容: https://www.bloomberg.com/news/articles/2025-06-03/gold-market-s-record-breaking-rally-powered-by-central-bank-buying
+2025-06-07 15:33:19,239 - gold_scraper - INFO - 从数据库加载了 12 篇现有文章
+2025-06-07 15:33:19,239 - gold_scraper - INFO - 添加了 0 篇新文章到数据库
+2025-06-07 15:33:19,239 - gold_scraper - WARNING - 本次抓取中有 5 个无效URL
+2025-06-07 15:33:19,239 - gold_scraper - INFO - 抓取完成!
+2025-06-07 15:33:19,239 - scheduler - INFO - Completed scrape in 456.79 seconds, found 0 new articles
+2025-06-07 15:33:19,239 - scheduler - INFO - Next run in 22.4 minutes
+2025-06-07 15:35:44,116 - main - INFO - 已启用ARM Mac兼容性支持
+2025-06-07 15:35:44,121 - main - INFO - 系统兼容性报告:
+----------------
+操作系统: Darwin Darwin Kernel Version 24.5.0: Tue Apr 22 19:54:33 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T8122
+处理器: arm
+架构: arm64 (64bit)
+Apple Silicon: M3
+* 已应用ARM兼容性设置
+* 使用Intel Mac的User-Agent伪装
+* 已禁用可能泄露架构的HTTP标头
+Python: CPython 3.12.2
+----------------
+2025-06-07 15:35:44,121 - main - INFO - 开始运行改进版爬虫...
+2025-06-07 15:35:44,126 - gold_scraper - INFO - 使用ARM Mac兼容的User-Agent
+2025-06-07 15:35:44,158 - arch_compat - INFO - 检测到Apple Silicon (ARM)架构，应用兼容性设置
+2025-06-07 15:35:44,164 - gold_scraper - INFO - 爬虫初始化完成，使用 10 个新闻源
+2025-06-07 15:35:44,169 - gold_scraper - INFO - 使用架构兼容性支持: True
+2025-06-07 15:35:44,170 - gold_scraper - INFO - 使用代理: False
+2025-06-07 15:35:44,170 - gold_scraper - INFO - 开始抓取黄金新闻...
+2025-06-07 15:35:44,170 - gold_scraper - INFO - 正在抓取源: https://www.kitco.com/news/category/gold-news/
+2025-06-07 15:35:46,108 - gold_scraper - INFO - 在 kitco.com 找到 0 个唯一链接
+2025-06-07 15:35:46,109 - gold_scraper - INFO - 从 kitco.com 提取了 0 篇相关文章
+2025-06-07 15:35:50,768 - gold_scraper - INFO - 正在抓取源: https://www.gold.org/news-and-events/news
+2025-06-07 15:35:52,051 - gold_scraper - ERROR - 资源不存在 (404): https://www.gold.org/news-and-events/news
+2025-06-07 15:35:52,052 - gold_scraper - INFO - 正在抓取源: https://goldprice.org/gold-news.html
+2025-06-07 15:35:52,913 - main - INFO - 用户中断，正在退出...
+2025-06-07 15:38:09,164 - gold_scraper - INFO - 使用ARM Mac兼容的User-Agent
+2025-06-07 15:38:09,193 - arch_compat - INFO - 检测到Apple Silicon (ARM)架构，应用兼容性设置
+2025-06-07 15:38:09,197 - gold_scraper - INFO - 爬虫初始化完成，使用 10 个新闻源
+2025-06-07 15:38:09,202 - gold_scraper - INFO - 使用架构兼容性支持: True
+2025-06-07 15:38:09,202 - gold_scraper - INFO - 使用代理: False
+2025-06-07 15:38:09,202 - scheduler - INFO - Running scraper immediately (on demand)
+2025-06-07 15:38:09,202 - gold_scraper - INFO - 开始抓取黄金新闻...
+2025-06-07 15:38:09,202 - gold_scraper - INFO - 正在抓取源: https://www.kitco.com/news/category/gold-news/
+2025-06-07 15:38:10,663 - gold_scraper - INFO - 在 kitco.com 找到 0 个唯一链接
+2025-06-07 15:38:10,663 - gold_scraper - INFO - 从 kitco.com 提取了 0 篇相关文章
+2025-06-07 15:38:13,783 - gold_scraper - INFO - 正在抓取源: https://www.gold.org/news-and-events/news
+2025-06-07 15:38:14,735 - gold_scraper - ERROR - 资源不存在 (404): https://www.gold.org/news-and-events/news
+2025-06-07 15:38:14,736 - gold_scraper - INFO - 正在抓取源: https://goldprice.org/gold-news.html
+2025-06-07 15:38:17,019 - gold_scraper - ERROR - 资源不存在 (404): https://goldprice.org/gold-news.html
+2025-06-07 15:38:17,019 - gold_scraper - INFO - 正在抓取源: https://www.reuters.com/markets/commodities/
+2025-06-07 15:38:18,026 - gold_scraper - INFO - 在 reuters.com 找到 10 个唯一链接
+2025-06-07 15:38:18,027 - gold_scraper - INFO - 从 reuters.com 提取了 0 篇相关文章
+2025-06-07 15:38:22,163 - gold_scraper - INFO - 正在抓取源: https://www.bloomberg.com/markets/commodities/futures/metals
+2025-06-07 15:38:23,966 - gold_scraper - INFO - 在 bloomberg.com 找到 9 个唯一链接
+2025-06-07 15:38:23,967 - gold_scraper - INFO - 从 bloomberg.com 提取了 2 篇相关文章
+2025-06-07 15:38:28,713 - gold_scraper - INFO - 正在抓取源: https://www.investing.com/news/commodities-news
+2025-06-07 15:38:29,270 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.investing.com/news/commodities-news
+2025-06-07 15:38:38,166 - gold_scraper - INFO - 使用ARM Mac兼容的User-Agent
+2025-06-07 15:38:38,191 - arch_compat - INFO - 检测到Apple Silicon (ARM)架构，应用兼容性设置
+2025-06-07 15:38:38,195 - gold_scraper - INFO - 爬虫初始化完成，使用 10 个新闻源
+2025-06-07 15:38:38,199 - gold_scraper - INFO - 使用架构兼容性支持: True
+2025-06-07 15:38:38,199 - gold_scraper - INFO - 使用代理: False
+2025-06-07 15:38:38,199 - scheduler - INFO - Running scraper immediately (on demand)
+2025-06-07 15:38:38,199 - gold_scraper - INFO - 开始抓取黄金新闻...
+2025-06-07 15:38:38,199 - gold_scraper - INFO - 正在抓取源: https://www.kitco.com/news/category/gold-news/
+2025-06-07 15:38:39,735 - gold_scraper - INFO - 在 kitco.com 找到 0 个唯一链接
+2025-06-07 15:38:39,735 - gold_scraper - INFO - 从 kitco.com 提取了 0 篇相关文章
+2025-06-07 15:38:42,784 - gold_scraper - INFO - 正在抓取源: https://www.gold.org/news-and-events/news
+2025-06-07 15:38:43,725 - gold_scraper - ERROR - 资源不存在 (404): https://www.gold.org/news-and-events/news
+2025-06-07 15:38:43,725 - gold_scraper - INFO - 正在抓取源: https://goldprice.org/gold-news.html
+2025-06-07 15:38:44,279 - gold_scraper - INFO - 重试请求 https://www.investing.com/news/commodities-news，延迟 9.52 秒...
+2025-06-07 15:38:45,674 - gold_scraper - ERROR - 资源不存在 (404): https://goldprice.org/gold-news.html
+2025-06-07 15:38:45,674 - gold_scraper - INFO - 正在抓取源: https://www.reuters.com/markets/commodities/
+2025-06-07 15:38:46,393 - gold_scraper - INFO - 在 reuters.com 找到 10 个唯一链接
+2025-06-07 15:38:46,393 - gold_scraper - INFO - 从 reuters.com 提取了 0 篇相关文章
+2025-06-07 15:38:49,701 - gold_scraper - INFO - 正在抓取源: https://www.bloomberg.com/markets/commodities/futures/metals
+2025-06-07 15:38:50,302 - gold_scraper - INFO - 在 bloomberg.com 找到 9 个唯一链接
+2025-06-07 15:38:50,303 - gold_scraper - INFO - 从 bloomberg.com 提取了 2 篇相关文章
+2025-06-07 15:38:53,475 - gold_scraper - INFO - 正在抓取源: https://www.investing.com/news/commodities-news
+2025-06-07 15:38:53,882 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.investing.com/news/commodities-news
+2025-06-07 15:38:54,344 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.investing.com/news/commodities-news
+2025-06-07 15:39:08,892 - gold_scraper - INFO - 重试请求 https://www.investing.com/news/commodities-news，延迟 7.11 秒...
+2025-06-07 15:39:16,474 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.investing.com/news/commodities-news
+2025-06-07 15:39:24,357 - gold_scraper - INFO - 重试请求 https://www.investing.com/news/commodities-news，延迟 10.74 秒...
+2025-06-07 15:39:35,696 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.investing.com/news/commodities-news
+2025-06-07 15:39:35,705 - gold_scraper - INFO - 尝试创建新会话...
+2025-06-07 15:39:35,722 - arch_compat - INFO - 检测到Apple Silicon (ARM)架构，应用兼容性设置
+2025-06-07 15:39:46,489 - gold_scraper - INFO - 重试请求 https://www.investing.com/news/commodities-news，延迟 15.60 秒...
+2025-06-07 15:40:02,782 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.investing.com/news/commodities-news
+2025-06-07 15:40:02,792 - gold_scraper - INFO - 尝试创建新会话...
+2025-06-07 15:40:02,809 - arch_compat - INFO - 检测到Apple Silicon (ARM)架构，应用兼容性设置
+2025-06-07 15:40:20,734 - gold_scraper - ERROR - 达到最大重试次数，无法获取: https://www.investing.com/news/commodities-news
+2025-06-07 15:40:20,737 - gold_scraper - INFO - 正在抓取源: https://www.ft.com/commodities
+2025-06-07 15:40:22,992 - gold_scraper - INFO - 在 ft.com 找到 2 个唯一链接
+2025-06-07 15:40:22,992 - gold_scraper - INFO - 从 ft.com 提取了 0 篇相关文章
+2025-06-07 15:40:28,361 - gold_scraper - INFO - 正在抓取源: https://www.bullionvault.com/gold-news
+2025-06-07 15:40:30,273 - gold_scraper - INFO - 在 bullionvault.com 找到 84 个唯一链接
+2025-06-07 15:40:30,343 - gold_scraper - INFO - 从 bullionvault.com 提取了 10 篇相关文章
+2025-06-07 15:40:35,838 - gold_scraper - INFO - 正在抓取源: https://www.moneymetals.com/news
+2025-06-07 15:40:36,503 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.moneymetals.com/news
+2025-06-07 15:40:51,515 - gold_scraper - INFO - 重试请求 https://www.moneymetals.com/news，延迟 8.82 秒...
+2025-06-07 15:41:01,009 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.moneymetals.com/news
+2025-06-07 15:41:31,023 - gold_scraper - INFO - 重试请求 https://www.moneymetals.com/news，延迟 16.64 秒...
+2025-06-07 15:41:48,626 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.moneymetals.com/news
+2025-06-07 15:41:48,634 - gold_scraper - INFO - 尝试创建新会话...
+2025-06-07 15:41:48,651 - arch_compat - INFO - 检测到Apple Silicon (ARM)架构，应用兼容性设置
+2025-06-07 15:42:33,662 - gold_scraper - ERROR - 达到最大重试次数，无法获取: https://www.moneymetals.com/news
+2025-06-07 15:42:33,664 - gold_scraper - INFO - 正在抓取源: https://www.apmex.com/blog/category/market-updates
+2025-06-07 15:42:34,392 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.apmex.com/blog/category/market-updates
+2025-06-07 15:42:49,404 - gold_scraper - INFO - 重试请求 https://www.apmex.com/blog/category/market-updates，延迟 11.95 秒...
+2025-06-07 15:43:02,005 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.apmex.com/blog/category/market-updates
+2025-06-07 15:43:32,015 - gold_scraper - INFO - 重试请求 https://www.apmex.com/blog/category/market-updates，延迟 14.92 秒...
+2025-06-07 15:43:47,511 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.apmex.com/blog/category/market-updates
+2025-06-07 15:43:47,519 - gold_scraper - INFO - 尝试创建新会话...
+2025-06-07 15:43:47,539 - arch_compat - INFO - 检测到Apple Silicon (ARM)架构，应用兼容性设置
+2025-06-07 15:44:32,552 - gold_scraper - ERROR - 达到最大重试次数，无法获取: https://www.apmex.com/blog/category/market-updates
+2025-06-07 15:44:32,553 - gold_scraper - INFO - 总共抓取了 12 篇文章
+2025-06-07 15:44:32,553 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-news/gold-price-news/silver-platinum-price-lease-060620251
+2025-06-07 15:44:38,298 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-news/news/silver-gold-ratio-050120251
+2025-06-07 15:44:41,782 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-guide/gold-bars
+2025-06-07 15:44:47,211 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-guide/gold-coins
+2025-06-07 15:44:51,745 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-news/market-fundamentals/silver-investing-record-price-deficit-2025-030720252
+2025-06-07 15:44:57,599 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-news/gold-investor-index/trump-gold-investing-030420251
+2025-06-07 15:45:01,057 - gold_scraper - INFO - 提取文章内容: http://www.bullionvault.com/secure/edit_communications_preferences.do
+2025-06-07 15:45:06,521 - gold_scraper - INFO - 提取文章内容: https://www.bloomberg.com/news/articles/2025-06-06/gold-s-cheaper-precious-metals-cousins-surge-to-multi-year-highs
+2025-06-07 15:45:10,800 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-news/
+2025-06-07 15:45:15,437 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-guide/gold-investment
+2025-06-07 15:45:18,396 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-news/gold-investor-index
+2025-06-07 15:45:22,138 - gold_scraper - INFO - 提取文章内容: https://www.bloomberg.com/news/articles/2025-06-03/gold-market-s-record-breaking-rally-powered-by-central-bank-buying
+2025-06-07 15:45:24,549 - gold_scraper - INFO - 从数据库加载了 12 篇现有文章
+2025-06-07 15:45:24,550 - gold_scraper - INFO - 添加了 0 篇新文章到数据库
+2025-06-07 15:45:24,550 - gold_scraper - WARNING - 本次抓取中有 5 个无效URL
+2025-06-07 15:45:24,550 - gold_scraper - INFO - 抓取完成!
+2025-06-07 15:45:24,551 - scheduler - INFO - Immediate scrape completed, found 0 new articles
+2025-06-07 15:45:24,551 - scheduler - INFO - Starting scheduler with 30.0 minute interval
+2025-06-07 15:45:24,551 - scheduler - INFO - Starting scheduled scrape at 2025-06-07T15:45:24.551155
+2025-06-07 15:45:24,551 - gold_scraper - INFO - 开始抓取黄金新闻...
+2025-06-07 15:45:24,551 - gold_scraper - INFO - 正在抓取源: https://www.kitco.com/news/category/gold-news/
+2025-06-07 15:45:25,949 - gold_scraper - INFO - 在 kitco.com 找到 0 个唯一链接
+2025-06-07 15:45:25,949 - gold_scraper - INFO - 从 kitco.com 提取了 0 篇相关文章
+2025-06-07 15:45:29,534 - gold_scraper - INFO - 正在抓取源: https://www.gold.org/news-and-events/news
+2025-06-07 15:45:30,718 - gold_scraper - WARNING - HTTP错误 503: https://www.gold.org/news-and-events/news
+2025-06-07 15:45:30,718 - gold_scraper - INFO - 重试请求 https://www.gold.org/news-and-events/news，延迟 6.95 秒...
+2025-06-07 15:45:38,238 - gold_scraper - WARNING - HTTP错误 503: https://www.gold.org/news-and-events/news
+2025-06-07 15:45:38,238 - gold_scraper - INFO - 重试请求 https://www.gold.org/news-and-events/news，延迟 17.21 秒...
+2025-06-07 15:45:59,731 - gold_scraper - WARNING - HTTP错误 503: https://www.gold.org/news-and-events/news
+2025-06-07 15:45:59,731 - gold_scraper - ERROR - 达到最大重试次数，无法获取: https://www.gold.org/news-and-events/news
+2025-06-07 15:45:59,731 - gold_scraper - INFO - 正在抓取源: https://goldprice.org/gold-news.html
+2025-06-07 15:46:02,202 - gold_scraper - ERROR - 资源不存在 (404): https://goldprice.org/gold-news.html
+2025-06-07 15:46:02,202 - gold_scraper - INFO - 正在抓取源: https://www.reuters.com/markets/commodities/
+2025-06-07 15:46:04,384 - gold_scraper - INFO - 在 reuters.com 找到 10 个唯一链接
+2025-06-07 15:46:04,384 - gold_scraper - INFO - 从 reuters.com 提取了 0 篇相关文章
+2025-06-07 15:46:09,546 - gold_scraper - INFO - 正在抓取源: https://www.bloomberg.com/markets/commodities/futures/metals
+2025-06-07 15:46:11,494 - gold_scraper - INFO - 在 bloomberg.com 找到 9 个唯一链接
+2025-06-07 15:46:11,494 - gold_scraper - INFO - 从 bloomberg.com 提取了 2 篇相关文章
+2025-06-07 15:46:15,424 - gold_scraper - INFO - 正在抓取源: https://www.investing.com/news/commodities-news
+2025-06-07 15:46:16,193 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.investing.com/news/commodities-news
+2025-06-07 15:46:31,207 - gold_scraper - INFO - 重试请求 https://www.investing.com/news/commodities-news，延迟 6.73 秒...
+2025-06-07 15:46:38,470 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.investing.com/news/commodities-news
+2025-06-07 15:47:08,483 - gold_scraper - INFO - 重试请求 https://www.investing.com/news/commodities-news，延迟 16.60 秒...
+2025-06-07 15:47:25,689 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.investing.com/news/commodities-news
+2025-06-07 15:47:25,699 - gold_scraper - INFO - 尝试创建新会话...
+2025-06-07 15:47:25,717 - arch_compat - INFO - 检测到Apple Silicon (ARM)架构，应用兼容性设置
+2025-06-07 15:48:10,730 - gold_scraper - ERROR - 达到最大重试次数，无法获取: https://www.investing.com/news/commodities-news
+2025-06-07 15:48:10,733 - gold_scraper - INFO - 正在抓取源: https://www.ft.com/commodities
+2025-06-07 15:48:12,008 - gold_scraper - INFO - 在 ft.com 找到 2 个唯一链接
+2025-06-07 15:48:12,008 - gold_scraper - INFO - 从 ft.com 提取了 0 篇相关文章
+2025-06-07 15:48:16,175 - gold_scraper - INFO - 正在抓取源: https://www.bullionvault.com/gold-news
+2025-06-07 15:48:18,310 - gold_scraper - INFO - 在 bullionvault.com 找到 84 个唯一链接
+2025-06-07 15:48:18,332 - gold_scraper - INFO - 从 bullionvault.com 提取了 10 篇相关文章
+2025-06-07 15:48:23,967 - gold_scraper - INFO - 正在抓取源: https://www.moneymetals.com/news
+2025-06-07 15:48:24,432 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.moneymetals.com/news
+2025-06-07 15:48:39,440 - gold_scraper - INFO - 重试请求 https://www.moneymetals.com/news，延迟 10.15 秒...
+2025-06-07 15:48:50,471 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.moneymetals.com/news
+2025-06-07 15:49:20,480 - gold_scraper - INFO - 重试请求 https://www.moneymetals.com/news，延迟 11.18 秒...
+2025-06-07 15:49:32,172 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.moneymetals.com/news
+2025-06-07 15:49:32,179 - gold_scraper - INFO - 尝试创建新会话...
+2025-06-07 15:49:32,200 - arch_compat - INFO - 检测到Apple Silicon (ARM)架构，应用兼容性设置
+2025-06-07 15:50:17,209 - gold_scraper - ERROR - 达到最大重试次数，无法获取: https://www.moneymetals.com/news
+2025-06-07 15:50:17,211 - gold_scraper - INFO - 正在抓取源: https://www.apmex.com/blog/category/market-updates
+2025-06-07 15:50:17,765 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.apmex.com/blog/category/market-updates
+2025-06-07 15:50:32,776 - gold_scraper - INFO - 重试请求 https://www.apmex.com/blog/category/market-updates，延迟 11.83 秒...
+2025-06-07 15:50:45,173 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.apmex.com/blog/category/market-updates
+2025-06-07 15:51:15,184 - gold_scraper - INFO - 重试请求 https://www.apmex.com/blog/category/market-updates，延迟 17.87 秒...
+2025-06-07 15:51:34,030 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.apmex.com/blog/category/market-updates
+2025-06-07 15:51:34,037 - gold_scraper - INFO - 尝试创建新会话...
+2025-06-07 15:51:34,059 - arch_compat - INFO - 检测到Apple Silicon (ARM)架构，应用兼容性设置
+2025-06-07 15:52:19,076 - gold_scraper - ERROR - 达到最大重试次数，无法获取: https://www.apmex.com/blog/category/market-updates
+2025-06-07 15:52:19,081 - gold_scraper - INFO - 总共抓取了 12 篇文章
+2025-06-07 15:52:19,082 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-news/gold-price-news/silver-platinum-price-lease-060620251
+2025-06-07 15:52:25,400 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-news/news/silver-gold-ratio-050120251
+2025-06-07 15:52:28,976 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-guide/gold-bars
+2025-06-07 15:52:32,256 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-guide/gold-coins
+2025-06-07 15:52:36,597 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-news/market-fundamentals/silver-investing-record-price-deficit-2025-030720252
+2025-06-07 15:52:40,512 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-news/gold-investor-index/trump-gold-investing-030420251
+2025-06-07 15:52:43,836 - gold_scraper - INFO - 提取文章内容: http://www.bullionvault.com/secure/edit_communications_preferences.do
+2025-06-07 15:52:51,225 - gold_scraper - INFO - 提取文章内容: https://www.bloomberg.com/news/articles/2025-06-06/gold-s-cheaper-precious-metals-cousins-surge-to-multi-year-highs
+2025-06-07 15:52:55,787 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-news/
+2025-06-07 15:53:01,423 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-guide/gold-investment
+2025-06-07 15:53:06,806 - gold_scraper - INFO - 提取文章内容: https://www.bullionvault.com/gold-news/gold-investor-index
+2025-06-07 15:53:11,890 - gold_scraper - INFO - 提取文章内容: https://www.bloomberg.com/news/articles/2025-06-03/gold-market-s-record-breaking-rally-powered-by-central-bank-buying
+2025-06-07 15:53:13,506 - gold_scraper - INFO - 从数据库加载了 12 篇现有文章
+2025-06-07 15:53:13,508 - gold_scraper - INFO - 添加了 0 篇新文章到数据库
+2025-06-07 15:53:13,508 - gold_scraper - WARNING - 本次抓取中有 5 个无效URL
+2025-06-07 15:53:13,508 - gold_scraper - INFO - 抓取完成!
+2025-06-07 15:53:13,508 - scheduler - INFO - Completed scrape in 468.96 seconds, found 0 new articles
+2025-06-07 15:53:13,508 - scheduler - INFO - Next run in 22.2 minutes
+2025-06-07 15:55:43,374 - scheduler - INFO - Starting scheduled scrape at 2025-06-07T15:55:43.373432
+2025-06-07 15:55:43,377 - gold_scraper - INFO - 开始抓取黄金新闻...
+2025-06-07 15:55:43,381 - gold_scraper - INFO - 正在抓取源: https://www.kitco.com/news/category/gold-news/
+2025-06-07 15:55:44,888 - gold_scraper - INFO - 在 kitco.com 找到 0 个唯一链接
+2025-06-07 15:55:44,888 - gold_scraper - INFO - 从 kitco.com 提取了 0 篇相关文章
+2025-06-07 15:55:50,590 - gold_scraper - INFO - 正在抓取源: https://www.gold.org/news-and-events/news
+2025-06-07 15:55:51,886 - gold_scraper - ERROR - 资源不存在 (404): https://www.gold.org/news-and-events/news
+2025-06-07 15:55:51,887 - gold_scraper - INFO - 正在抓取源: https://goldprice.org/gold-news.html
+2025-06-07 15:55:54,283 - gold_scraper - ERROR - 资源不存在 (404): https://goldprice.org/gold-news.html
+2025-06-07 15:55:54,284 - gold_scraper - INFO - 正在抓取源: https://www.reuters.com/markets/commodities/
+2025-06-07 15:55:55,424 - gold_scraper - INFO - 在 reuters.com 找到 10 个唯一链接
+2025-06-07 15:55:55,424 - gold_scraper - INFO - 从 reuters.com 提取了 0 篇相关文章
+2025-06-07 15:56:00,333 - gold_scraper - INFO - 正在抓取源: https://www.bloomberg.com/markets/commodities/futures/metals
+2025-06-07 15:56:02,907 - gold_scraper - INFO - 在 bloomberg.com 找到 9 个唯一链接
+2025-06-07 15:56:02,907 - gold_scraper - INFO - 从 bloomberg.com 提取了 2 篇相关文章
+2025-06-07 15:56:06,418 - gold_scraper - INFO - 正在抓取源: https://www.investing.com/news/commodities-news
+2025-06-07 15:56:06,880 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.investing.com/news/commodities-news
+2025-06-07 15:56:21,892 - gold_scraper - INFO - 重试请求 https://www.investing.com/news/commodities-news，延迟 9.43 秒...
+2025-06-07 15:56:31,837 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.investing.com/news/commodities-news
+2025-06-07 15:57:01,849 - gold_scraper - INFO - 重试请求 https://www.investing.com/news/commodities-news，延迟 10.14 秒...
+2025-06-07 15:57:12,545 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.investing.com/news/commodities-news
+2025-06-07 15:57:12,551 - gold_scraper - INFO - 尝试创建新会话...
+2025-06-07 15:57:12,571 - arch_compat - INFO - 检测到Apple Silicon (ARM)架构，应用兼容性设置
+2025-06-07 15:57:57,585 - gold_scraper - ERROR - 达到最大重试次数，无法获取: https://www.investing.com/news/commodities-news
+2025-06-07 15:57:57,592 - gold_scraper - INFO - 正在抓取源: https://www.ft.com/commodities
+2025-06-07 15:58:00,184 - gold_scraper - INFO - 在 ft.com 找到 2 个唯一链接
+2025-06-07 15:58:00,184 - gold_scraper - INFO - 从 ft.com 提取了 0 篇相关文章
+2025-06-07 15:58:04,135 - gold_scraper - INFO - 正在抓取源: https://www.bullionvault.com/gold-news
+2025-06-07 15:58:06,925 - gold_scraper - INFO - 在 bullionvault.com 找到 84 个唯一链接
+2025-06-07 15:58:06,947 - gold_scraper - INFO - 从 bullionvault.com 提取了 10 篇相关文章
+2025-06-07 15:58:10,058 - gold_scraper - INFO - 正在抓取源: https://www.moneymetals.com/news
+2025-06-07 15:58:10,692 - gold_scraper - WARNING - 访问被拒绝 (403): https://www.moneymetals.com/news
+2025-06-07 15:58:25,700 - gold_scraper - INFO - 重试请求 https://www.moneymetals.com/news，延迟 9.95 秒...
+2025-06-07 15:58:35,662 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1066a5a30>: Failed to resolve 'www.moneymetals.com' ([Errno 8] nodename nor servname provided, or not known)")': /news
+2025-06-07 15:58:35,663 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1066a7d10>: Failed to resolve 'www.moneymetals.com' ([Errno 8] nodename nor servname provided, or not known)")': /news
+2025-06-07 15:58:35,665 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1066a7560>: Failed to resolve 'www.moneymetals.com' ([Errno 8] nodename nor servname provided, or not known)")': /news
+2025-06-07 15:58:35,667 - gold_scraper - WARNING - 连接错误 (尝试 2/3): https://www.moneymetals.com/news
+2025-06-07 15:58:35,668 - gold_scraper - INFO - 重试请求 https://www.moneymetals.com/news，延迟 9.28 秒...

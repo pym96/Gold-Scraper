@@ -1,0 +1,262 @@
+/* Gold Spider CSS Styles */
+
+:root {
+    --gold-primary: #d4af37;
+    --gold-secondary: #ffdf00;
+    --gold-light: #f5f0d5;
+    --dark-bg: #222;
+    --light-bg: #f9f9f9;
+    --text-dark: #333;
+    --text-light: #eee;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', 'Microsoft YaHei', '微软雅黑', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text-dark);
+    background-color: var(--light-bg);
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+header {
+    background: linear-gradient(135deg, var(--dark-bg), #444);
+    color: var(--gold-primary);
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    box-shadow: var(--shadow);
+}
+
+header h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    color: var(--text-light);
+    font-size: 1rem;
+}
+
+.article-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: var(--shadow);
+    transition: transform 0.2s ease;
+}
+
+.article-card:hover {
+    transform: translateY(-3px);
+}
+
+.article-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    color: #777;
+    font-size: 0.85rem;
+}
+
+.article-tag {
+    background-color: var(--gold-light);
+    color: var(--text-dark);
+    padding: 0.3rem 0.7rem;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.article-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-dark);
+    line-height: 1.4;
+}
+
+.article-summary {
+    color: #555;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.article-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+}
+
+.article-source {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.article-footer a {
+    color: var(--text-dark);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.article-footer a:hover {
+    color: var(--gold-primary);
+}
+
+.refresh-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: var(--gold-primary);
+    color: var(--dark-bg);
+    padding: 0.6rem 1.2rem;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s;
+}
+
+.refresh-btn:hover {
+    background-color: var(--gold-secondary);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Audio Player Styles */
+.audio-player {
+    background: linear-gradient(to right, #1e1e1e, #2d2d2d);
+    color: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: var(--shadow);
+}
+
+.audio-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.audio-subtitle {
+    font-size: 0.8rem;
+    color: #aaa;
+    margin-bottom: 1rem;
+}
+
+.audio-controls {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.audio-btn {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.2s;
+}
+
+.audio-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.audio-btn.play {
+    background-color: var(--gold-primary);
+    color: var(--dark-bg);
+    width: 36px;
+    height: 36px;
+}
+
+.audio-btn.play:hover {
+    background-color: var(--gold-secondary);
+}
+
+.progress-container {
+    flex: 1;
+    height: 6px;
+    background-color: #555;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: var(--gold-primary);
+    width: 0%;
+    transition: width 0.1s linear;
+}
+
+.audio-time {
+    font-size: 0.8rem;
+    color: #aaa;
+}
+
+.speed-control {
+    background-color: #444;
+    border: none;
+    color: white;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.speed-control:hover {
+    background-color: #555;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+    
+    .audio-controls {
+        gap: 8px;
+    }
+    
+    .audio-btn {
+        width: 28px;
+        height: 28px;
+    }
+    
+    .article-title {
+        font-size: 1.3rem;
+    }
+} 
