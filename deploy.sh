@@ -32,6 +32,10 @@ mkdir -p ~/gold_spider/data
 echo -e "${GREEN}Setting up conda environment...${NC}"
 cd ~/gold_spider
 
+# Initialize conda for bash shell
+echo -e "${GREEN}Initializing conda...${NC}"
+source ~/miniconda3/etc/profile.d/conda.sh || source ~/anaconda3/etc/profile.d/conda.sh || eval "$(conda shell.bash hook)"
+
 # Check if conda environment exists
 if ! conda info --envs | grep -q "gold_spider"; then
     echo -e "${GREEN}Creating new conda environment 'gold_spider'...${NC}"
@@ -40,7 +44,7 @@ fi
 
 # Activate conda environment and install dependencies
 echo -e "${GREEN}Installing Python dependencies...${NC}"
-conda activate gold_spider || source $(conda info --base)/etc/profile.d/conda.sh && conda activate gold_spider
+conda activate gold_spider
 pip install fastapi uvicorn jinja2 python-multipart aiofiles bs4 fake_useragent requests feedparser python-dateutil schedule
 
 # Set up Nginx configuration
@@ -52,10 +56,27 @@ sudo sed -i "s|/path/to/gold_spider|$HOME/gold_spider|g" /etc/nginx/conf.d/golds
 echo -e "${GREEN}Setting up systemd service...${NC}"
 sudo cp systemd/goldspider.service /etc/systemd/system/
 sudo sed -i "s|/home/ubuntu|$HOME|g" /etc/systemd/system/goldspider.service
+
+# Find conda installation and update service file
+echo -e "${GREEN}Locating conda installation...${NC}"
+CONDA_PATH=$(which conda 2>/dev/null || echo "")
+if [ -z "$CONDA_PATH" ]; then
+    # Try common conda installation paths
+    if [ -f "$HOME/miniconda3/etc/profile.d/conda.sh" ]; then
+        CONDA_INIT="source $HOME/miniconda3/etc/profile.d/conda.sh"
+    elif [ -f "$HOME/anaconda3/etc/profile.d/conda.sh" ]; then
+        CONDA_INIT="source $HOME/anaconda3/etc/profile.d/conda.sh"
+    else
+        echo -e "${RED}Could not find conda installation${NC}"
+        exit 1
+    fi
+else
+    CONDA_BASE=$(dirname $(dirname $CONDA_PATH))
+    CONDA_INIT="source $CONDA_BASE/etc/profile.d/conda.sh"
+fi
+
 # Update ExecStart to use conda
-CONDA_PATH=$(which conda)
-CONDA_BASE=$(dirname $(dirname $CONDA_PATH))
-sudo sed -i "s|ExecStart=.*|ExecStart=/bin/bash -c 'source $CONDA_BASE/etc/profile.d/conda.sh \&\& conda activate gold_spider \&\& python -m app.service'|g" /etc/systemd/system/goldspider.service
+sudo sed -i "s|ExecStart=.*|ExecStart=/bin/bash -c '$CONDA_INIT \&\& conda activate gold_spider \&\& python -m app.service'|g" /etc/systemd/system/goldspider.service
 sudo sed -i "s|Environment=.*||g" /etc/systemd/system/goldspider.service
 
 # Create directory for Let's Encrypt verification
