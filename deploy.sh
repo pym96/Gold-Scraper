@@ -23,14 +23,14 @@ sudo yum install -y certbot python3-certbot-nginx
 
 # Create directory structure if not exists
 echo -e "${GREEN}Setting up directory structure...${NC}"
-mkdir -p ~/gold_spider/static/css
-mkdir -p ~/gold_spider/templates
-mkdir -p ~/gold_spider/logs
-mkdir -p ~/gold_spider/data
+mkdir -p ~/Gold-Scraper/static/css
+mkdir -p ~/Gold-Scraper/templates
+mkdir -p ~/Gold-Scraper/logs
+mkdir -p ~/Gold-Scraper/data
 
 # Set up conda environment
 echo -e "${GREEN}Setting up conda environment...${NC}"
-cd ~/gold_spider
+cd ~/Gold-Scraper
 
 # Initialize conda for bash shell
 echo -e "${GREEN}Initializing conda...${NC}"
@@ -50,12 +50,13 @@ pip install fastapi uvicorn jinja2 python-multipart aiofiles bs4 fake_useragent 
 # Set up Nginx configuration
 echo -e "${GREEN}Setting up Nginx configuration...${NC}"
 sudo cp nginx/goldspider.conf /etc/nginx/conf.d/goldspider.conf
-sudo sed -i "s|/path/to/gold_spider|$HOME/gold_spider|g" /etc/nginx/conf.d/goldspider.conf
+sudo sed -i "s|/path/to/gold_spider|$HOME/Gold-Scraper|g" /etc/nginx/conf.d/goldspider.conf
 
 # Set up the systemd service and adjust for conda
 echo -e "${GREEN}Setting up systemd service...${NC}"
 sudo cp systemd/goldspider.service /etc/systemd/system/
 sudo sed -i "s|/home/ubuntu|$HOME|g" /etc/systemd/system/goldspider.service
+sudo sed -i "s|gold_spider|Gold-Scraper|g" /etc/systemd/system/goldspider.service
 
 # Find conda installation and update service file
 echo -e "${GREEN}Locating conda installation...${NC}"
@@ -127,5 +128,5 @@ sudo systemctl status goldspider --no-pager
 
 echo -e "${YELLOW}Deployment completed. Don't forget to:${NC}"
 echo -e "1. Set up a firewall to allow only ports 80, 443 and SSH"
-echo -e "2. Check logs at ~/gold_spider/logs/ for any issues"
+echo -e "2. Check logs at ~/Gold-Scraper/logs/ for any issues"
 echo -e "3. To view service logs use: sudo journalctl -u goldspider" 

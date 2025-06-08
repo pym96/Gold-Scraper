@@ -5,7 +5,7 @@ After=network.target
 [Service]
 Type=simple
 User=root
-WorkingDirectory=/home/ubuntu/gold_spider
+WorkingDirectory=/home/ubuntu/Gold-Scraper
 Environment=PATH=/home/ubuntu/anaconda3/envs/gold_spider/bin
 ExecStart=/bin/bash -c 'source /home/ubuntu/anaconda3/etc/profile.d/conda.sh && conda activate gold_spider && python -m app.service'
 Restart=always
@@ -20,7 +20,7 @@ SyslogIdentifier=goldspider
 NoNewPrivileges=true
 ProtectSystem=strict
 ProtectHome=true
-ReadWritePaths=/home/ubuntu/gold_spider/logs /home/ubuntu/gold_spider/data
+ReadWritePaths=/home/ubuntu/Gold-Scraper/logs /home/ubuntu/Gold-Scraper/data
 
 [Install]
 WantedBy=multi-user.target 
