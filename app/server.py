@@ -81,7 +81,7 @@ def format_date(date_string):
     except Exception:
         return date_string
 
-def run_server(host='0.0.0.0', port=5050, debug=True):
+def run_server(host='0.0.0.0', port=8000, debug=True):
     """Run the web server"""
     app.run(host=host, port=port, debug=debug)
 

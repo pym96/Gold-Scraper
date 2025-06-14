@@ -17,7 +17,7 @@ After=network.target
 [Service]
 User=root
 WorkingDirectory=${WORK_DIR}
-ExecStart=${PYTHON_ENV}/python -m app.service
+ExecStart=${PYTHON_ENV}/python run.py
 Restart=always
 RestartSec=10
 Environment="PORT=${PORT}"
